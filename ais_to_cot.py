@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 from typing import Dict, Any, List, Set
 
 # Your AISstream.io API key
-API_KEY = "7b46c01db14030f0dde8697dbba85f448e58efd8"
+API_KEY = "API KEY"
 
 class AISToCoTConverter:
     def __init__(self, cot_host: str, cot_port: int, protocol: str = 'tcp', include_types: Set[str] = None, exclude_types: Set[str] = None):
